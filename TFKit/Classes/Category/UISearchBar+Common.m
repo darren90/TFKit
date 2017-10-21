@@ -7,6 +7,8 @@
 //
 
 #import "UISearchBar+Common.h"
+#import "UIImage+Category.h"
+#import "UIView+Frame.h"
 
 @implementation UISearchBar (Common)
 - (void)insertBGColor:(UIColor *)backgroundColor{

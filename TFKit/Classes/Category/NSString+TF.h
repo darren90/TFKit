@@ -12,13 +12,13 @@
 
 
 #pragma mark - 取出html的标签
-/**
- *  替换html标签
- *
- *  @param commentContent 要替换的内容
- *
- *  @return 替换后没有html标签的内容
- */
-+(NSString *)replaceHtmlTag:(NSString *)commentContent;
+///**
+// *  替换html标签
+// *
+// *  @param commentContent 要替换的内容
+// *
+// *  @return 替换后没有html标签的内容
+// */
+//+(NSString *)replaceHtmlTag:(NSString *)commentContent;
 
 @end

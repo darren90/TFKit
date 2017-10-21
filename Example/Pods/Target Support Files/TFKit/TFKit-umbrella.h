@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "NSString+TF.h"
+#import "UIImage+Category.h"
+#import "UIImage+Tint.h"
+#import "UISearchBar+Common.h"
+#import "UIView+AutoLayout.h"
+#import "UIView+Frame.h"
+#import "APINetTools.h"
 
 FOUNDATION_EXPORT double TFKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TFKitVersionString[];
