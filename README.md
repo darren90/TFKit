@@ -27,3 +27,28 @@ pod 'TFKit'
 ## License
 
 TFKit is available under the MIT license. See the LICENSE file for more info.
+
+
+
+[友盟统计](http://dev.umeng.com/analytics/ios-doc/integration)
+
+ pod 'UMengAnalytics', '~> 4.2.4'
+
+[友盟推送]()
+
+[友盟分享]()
+
+[Bugly](https://bugly.qq.com/docs/user-guide/instruction-manual-ios/?v=20171017172742#cocoapods)
+   pod 'Bugly', '~> 2.4.8'
+
+
+
+
+
+
+
+
+
+
+
+
