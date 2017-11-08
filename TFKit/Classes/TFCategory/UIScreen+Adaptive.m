@@ -24,8 +24,21 @@
     return [self iPhoneX] ? 34 : 0;
 }
 
++ (CGFloat)homeTabBarHeight {
+    return [self homeIndeicatrHeight] + 49;
+}
+
 + (CGFloat)statusBarHeight {
     return [self iPhoneX] ? 44 : 20;
 }
+
++ (CGFloat)naviBarHeight {
+    return 44;
+}
+
++ (CGFloat)topBarTotalHeight {
+    return [self naviBarHeight] + [self statusBarHeight];
+}
+
 
 @end

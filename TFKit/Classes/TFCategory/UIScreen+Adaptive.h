@@ -11,10 +11,16 @@
 
 + (CGFloat)homeIndeicatrHeight;
 
++ (CGFloat)homeTabBarHeight;
+
 + (CGFloat)width;
 
 + (BOOL)iPhoneX;
 
 + (CGFloat)statusBarHeight;
+
++ (CGFloat)naviBarHeight;
+
++ (CGFloat)topBarTotalHeight;
 
 @end
