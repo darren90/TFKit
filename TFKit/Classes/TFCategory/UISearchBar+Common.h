@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UISearchBar (Common)
+
 - (void)insertBGColor:(UIColor *)backgroundColor;
 
 @end

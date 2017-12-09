@@ -15,4 +15,5 @@
 - (UIImage *) imageWithGradientTintColor:(UIColor *)tintColor;
 
 - (UIImage *) imageWithTintColor:(UIColor *)tintColor blendMode:(CGBlendMode)blendMode;
+
 @end
