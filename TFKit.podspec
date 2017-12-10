@@ -32,7 +32,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '7.0'
 
   s.source_files = 'TFKit/Classes/**/*'
-  
+  s.public_header_files = 'TFKit/Classes/./*.{h,m}'
+
   # s.resource_bundles = {
   #   'TFKit' => ['TFKit/Assets/*.png']
   # }
