@@ -40,5 +40,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'YTKNetwork', '~> 0.5.0'
+  # s.dependency 'YTKNetwork', '~> 0.5.0'
 end

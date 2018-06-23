@@ -7,7 +7,9 @@
 //
 
 #import "APINetTools.h"
+//@import AFNetworking
 #import "AFNetworking.h"
+//#import <AFNetworking/AFNetworking.h>
 
 @implementation APINetTools
 
@@ -20,7 +22,7 @@
     
     //发送请求
 //    __unsafe_unretained __typeof(self) weakSelf = self;
-    [mgr GET:url parameters:nil
+    [mgr GET:url parameters:parms
      success:^(AFHTTPRequestOperation *operation, id responseObject) {//responseObject 字典
          fininsh(responseObject, nil);
      } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
@@ -37,7 +39,7 @@
     
     //发送请求
     //    __unsafe_unretained __typeof(self) weakSelf = self;
-    [mgr POST:url parameters:nil
+    [mgr POST:url parameters:parms
      success:^(AFHTTPRequestOperation *operation, id responseObject) {//responseObject 字典
          fininsh(responseObject, nil);
      } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
